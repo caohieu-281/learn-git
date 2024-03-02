@@ -1,0 +1,10 @@
+ví dụ đang code ở nhánh tên là a
+muốn chuyển sang nhánh tên là b (khi mà code bị sai/khi bị conflict ko merge vào main đc/khi muốn )
+(b đã được tạo pull request - chưa được merge)
+
+B1: git stash save "name" -u
+
+nếu code ở nhánh main đã có update mới
+
+Case1: code bị sai
+b2: git 
